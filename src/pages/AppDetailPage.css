@@ -1,0 +1,240 @@
+.app-detail {
+  animation: fadeUp 0.45s ease both;
+  padding-top: 64px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* ── header ── */
+.app-detail-header {
+  padding: 48px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.back-link {
+  font-size: 14px;
+  color: #6b7280;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  width: fit-content;
+}
+.back-link:hover { color: #0a0a14; }
+
+.app-detail-identity {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.app-detail-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.app-detail-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 22px;
+  object-fit: cover;
+}
+
+.app-detail-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.app-detail-badges {
+  display: flex;
+  gap: 6px;
+}
+
+.badge {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #6b7280;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.app-detail-meta h1 {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #0a0a14;
+  margin: 0;
+}
+
+.app-detail-tagline {
+  font-size: 16px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.appstore-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background: #0a0a14;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: fit-content;
+  transition: opacity 0.2s;
+}
+.appstore-btn:hover { opacity: 0.8; }
+
+.appstore-btn--soon {
+  color: #9ca3af;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  cursor: default;
+}
+.appstore-btn--soon:hover { opacity: 1; }
+
+/* ── screenshots ── */
+.app-screenshots {
+  display: flex;
+  gap: 16px;
+  padding: 56px 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.app-screenshots::-webkit-scrollbar { display: none; }
+
+.screenshot-frame {
+  flex-shrink: 0;
+  width: 200px;
+  height: 380px;
+  border-radius: 28px;
+  overflow: hidden;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.screenshot-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.screenshots-soon {
+  padding: 56px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #9ca3af;
+}
+
+/* ── about ── */
+.app-about {
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.app-about h2,
+.app-features h2 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #0a0a14;
+  margin: 0 0 16px;
+}
+
+.app-about p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4b5563;
+  max-width: 680px;
+  margin: 0;
+}
+
+/* ── features ── */
+.app-features {
+  padding: 48px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.feature-card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feature-icon { font-size: 22px; }
+
+.feature-card h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0a0a14;
+  margin: 0;
+}
+
+.feature-card p {
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ── privacy link ── */
+.app-privacy-link {
+  padding: 32px 0 64px;
+}
+
+.app-privacy-link a {
+  font-size: 14px;
+  color: #6b7280;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.app-privacy-link a:hover { color: #0a0a14; }
+
+/* ── 404 ── */
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 16px;
+}
+
+.not-found a {
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 14px;
+}

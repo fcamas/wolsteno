@@ -1,0 +1,160 @@
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  padding: 80px 48px;
+  border-top: 1px solid rgba(67, 97, 238, 0.1);
+}
+
+/* ── shared column styles ── */
+.about-col,
+.resume-col {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.about-col h2,
+.resume-col h2 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #0d1117;
+  margin: 0;
+}
+
+.about-col p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #4b5563;
+  margin: 0;
+}
+
+/* ── bullets ── */
+.about-bullets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about-bullets li {
+  font-size: 14px;
+  color: #4b5563;
+  padding-left: 16px;
+  position: relative;
+}
+
+.about-bullets li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #4361ee;
+  font-size: 12px;
+}
+
+/* ── social links ── */
+.about-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.about-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #0d1117;
+  text-decoration: none;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.about-link:hover {
+  box-shadow: 0 4px 14px rgba(67, 97, 238, 0.1);
+  transform: translateY(-1px);
+}
+
+/* ── resume jobs ── */
+.resume-jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.resume-job {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 14px 16px;
+  background: white;
+  border: 1px solid rgba(67, 97, 238, 0.08);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(67, 97, 238, 0.05);
+}
+
+.resume-job-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0d1117;
+}
+
+.resume-job-date {
+  font-size: 12px;
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+/* ── skill chips ── */
+.resume-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.resume-skill-chip {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+/* ── download ── */
+.resume-download {
+  display: inline-flex;
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background: #4361ee;
+  text-decoration: none;
+  padding: 11px 20px;
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+
+.resume-download:hover {
+  background: #2f4ac5;
+}
+
+.resume-download-note {
+  font-size: 11px;
+  color: #9ca3af;
+  margin-top: -10px;
+}
+
+/* ── responsive ── */
+@media (max-width: 860px) {
+  .about-section {
+    grid-template-columns: 1fr;
+    padding: 64px 24px;
+    gap: 48px;
+  }
+}

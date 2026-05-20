@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Use &amp; Disclaimer: Invoiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --brand:   #3B7BF6;
+      --brand-bg: #eef3fe;
+      --text:    #0d0d1a;
+      --sub:     #4b5563;
+      --muted:   #9ca3af;
+      --border:  rgba(0,0,0,0.08);
+      --card-bg: #ffffff;
+      --page-bg: #f7f8fc;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--page-bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.6;
+    }
+
+    /* ── header ── */
+    .site-header {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 40px 24px 36px;
+      text-align: center;
+    }
+
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .app-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: var(--brand);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.03em;
+      flex-shrink: 0;
+    }
+
+    .app-name {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.03em;
+    }
+
+    .page-subtitle {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--brand);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .page-title {
+      font-size: clamp(22px, 4vw, 32px);
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+
+    /* ── layout ── */
+    .content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* ── intro blurb ── */
+    .intro {
+      background: var(--brand-bg);
+      border: 1px solid rgba(59,123,246,0.18);
+      border-radius: 14px;
+      padding: 20px 24px;
+      font-size: 14px;
+      color: #2d5bbf;
+      line-height: 1.65;
+    }
+
+    /* ── section card ── */
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 28px 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .section-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: var(--brand-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .section-card h2 {
+      font-size: 17px;
+      font-weight: 650;
+      color: var(--brand);
+      letter-spacing: -0.01em;
+      line-height: 1.3;
+    }
+
+    .section-num {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 3px;
+    }
+
+    .section-card p {
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--sub);
+    }
+
+    .section-card p + p {
+      margin-top: 12px;
+    }
+
+    .warn-card {
+      border-color: rgba(239,68,68,0.15);
+    }
+
+    .warn-card .section-icon {
+      background: #fef2f2;
+    }
+
+    .warn-card h2 {
+      color: #c0392b;
+    }
+
+    /* ── footer ── */
+    .site-footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+    }
+
+    .site-footer p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .site-footer a {
+      color: var(--brand);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .site-footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── responsive ── */
+    @media (max-width: 480px) {
+      .site-header { padding: 32px 20px 28px; }
+      .section-card { padding: 22px 18px 20px; border-radius: 14px; }
+      .section-card p { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── header ── -->
+  <header class="site-header">
+    <div class="app-badge">
+      <div class="app-icon">Iz</div>
+      <span class="app-name">Invoiz</span>
+    </div>
+    <p class="page-subtitle">Legal</p>
+    <h1 class="page-title">Terms of Use &amp; Disclaimer</h1>
+  </header>
+
+  <!-- ── content ── -->
+  <main class="content">
+
+    <p class="intro">
+      Please read these Terms of Use carefully before using Invoiz. By downloading
+      or using the app, you agree to be bound by these terms. If you do not agree,
+      do not use the app.
+    </p>
+
+    <!-- 1. Terms of Use -->
+    <div class="section-card">
+      <div class="section-header">
+        <div class="section-icon">📋</div>
+        <div>
+          <p class="section-num">Section 1</p>
+          <h2>Terms of Use</h2>
+        </div>
+      </div>
+      <p>
+        Invoiz is provided for lawful business purposes only. By using this app, you
+        agree to use it exclusively in compliance with all applicable local, national,
+        and international laws and regulations.
+      </p>
+      <p>
+        You are solely and exclusively responsible for all content you create, store,
+        or transmit through the app, including invoices, client data, expense records,
+        and any financial information. The accuracy, legality, and completeness of that
+        content is your responsibility alone.
+      </p>
+      <p>
+        You agree not to use Invoiz to create false, misleading, or fraudulent
+        documents, to impersonate any person or entity, or to engage in any activity
+        that violates applicable laws or the rights of any third party.
+      </p>
+    </div>
+
+    <!-- 2. No Liability for Misuse -->
+    <div class="section-card warn-card">
+      <div class="section-header">
+        <div class="section-icon">⚠️</div>
+        <div>
+          <p class="section-num">Section 2</p>
+          <h2>No Liability for Misuse</h2>
+        </div>
+      </div>
+      <p>
+        The developer of Invoiz is <strong>not responsible</strong> for any misuse of
+        the app. This includes, but is not limited to, fraudulent invoicing, tax
+        evasion, impersonation, money laundering, or any other illegal activity
+        conducted through or facilitated by the app.
+      </p>
+      <p>
+        Any such misuse is the sole legal and financial responsibility of the user. The
+        developer reserves the right to cooperate fully with law enforcement authorities
+        in the event of any investigation related to unlawful use of the app.
+      </p>
+    </div>
+
+    <!-- 3. No Legal or Financial Advice -->
+    <div class="section-card">
+      <div class="section-header">
+        <div class="section-icon">📊</div>
+        <div>
+          <p class="section-num">Section 3</p>
+          <h2>No Legal or Financial Advice</h2>
+        </div>
+      </div>
+      <p>
+        Invoiz may display tax estimates, tax summaries, revenue forecasts, and other
+        financial figures. These figures are generated automatically based on data you
+        enter and are provided for <strong>informational and organizational purposes
+        only</strong>.
+      </p>
+      <p>
+        Nothing in Invoiz constitutes legal, financial, accounting, or tax advice. You
+        should not rely on any figures or summaries in the app as a substitute for
+        advice from a qualified accountant, tax professional, or legal advisor. Always
+        consult a licensed professional for your specific situation.
+      </p>
+    </div>
+
+    <!-- 4. Limitation of Liability -->
+    <div class="section-card">
+      <div class="section-header">
+        <div class="section-icon">🛡️</div>
+        <div>
+          <p class="section-num">Section 4</p>
+          <h2>Limitation of Liability</h2>
+        </div>
+      </div>
+      <p>
+        To the maximum extent permitted by applicable law, the developer of Invoiz
+        shall not be liable for any direct, indirect, incidental, special, consequential,
+        or exemplary damages arising from your use or inability to use the app, including
+        but not limited to, loss of revenue, loss of data, business interruption, or any
+        other commercial damages or losses.
+      </p>
+      <p>
+        This limitation applies regardless of the theory of liability (contract, tort,
+        negligence, or otherwise) and even if the developer has been advised of the
+        possibility of such damages. Some jurisdictions do not allow the exclusion of
+        certain warranties or limitation of liability; in such cases the developer's
+        liability is limited to the fullest extent permitted by law.
+      </p>
+    </div>
+
+    <!-- 5. Data Responsibility -->
+    <div class="section-card">
+      <div class="section-header">
+        <div class="section-icon">🔒</div>
+        <div>
+          <p class="section-num">Section 5</p>
+          <h2>Data Responsibility</h2>
+        </div>
+      </div>
+      <p>
+        All data you enter into Invoiz, including invoices, client records, and expense
+        information, is stored locally on your device using Apple's SwiftData framework.
+        The developer has no access to this data and it is never transmitted to external
+        servers by the app.
+      </p>
+      <p>
+        If you have iCloud Backup enabled on your device, your data may be included in
+        those backups as governed by Apple's own iCloud privacy policy and terms of service.
+        The developer is not responsible for the security or availability of iCloud backups.
+      </p>
+      <p>
+        You are responsible for maintaining your own backups and for any data loss that
+        may occur due to device failure, accidental deletion, iOS updates, or any other
+        cause. The developer is not liable for data loss or unauthorized access resulting
+        from circumstances beyond the app itself.
+      </p>
+    </div>
+
+  </main>
+
+  <!-- ── footer ── -->
+  <footer class="site-footer">
+    <p>Last updated: May 2025</p>
+    <p>&copy; 2025 Invoiz. All rights reserved.</p>
+    <p style="margin-top: 8px;">
+      Questions? <a href="mailto:fredycamasdev@gmail.com">fredycamasdev@gmail.com</a>
+    </p>
+  </footer>
+
+</body>
+</html>
