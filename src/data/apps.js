@@ -16,6 +16,7 @@ export const apps = [
     appStoreUrl: null,      // add later
     route: '/invoiz',
     privacyRoute: '/invoiz/privacy',
+    termsUrl: '/terms.html',
     icon: invoizIcon,
     screenshots: [invoiz1, invoiz2, invoiz3],
 

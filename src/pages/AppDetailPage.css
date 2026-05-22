@@ -212,6 +212,8 @@
 /* ── privacy link ── */
 .app-privacy-link {
   padding: 32px 0 64px;
+  display: flex;
+  gap: 24px;
 }
 
 .app-privacy-link a {

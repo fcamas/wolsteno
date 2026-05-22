@@ -114,7 +114,6 @@ export default function Home() {
           {apps.map(app => (
             <Link key={app.id} to={app.privacyRoute}>{app.name} Privacy Policy</Link>
           ))}
-          <a href="/terms.html" target="_blank" rel="noreferrer">Terms of Use</a>
         </div>
         <img src={sign} alt="Fredy signature" className="home-sign-img" />
         <p>© {new Date().getFullYear()} WOLSTENO Studio · Software Developer Portfolio by Fredy Camas</p>
