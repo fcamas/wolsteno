@@ -15,7 +15,7 @@ export const apps = [
     accent: '#6366f1',
     appStoreUrl: null,      // add later
     route: '/invoiz',
-    privacyRoute: '/privacy.html',
+    privacyRoute: '/invoiz-privacy.html',
     termsUrl: '/terms.html',
     icon: invoizIcon,
     screenshots: [invoiz1, invoiz2, invoiz3],
