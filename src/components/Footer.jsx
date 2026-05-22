@@ -11,7 +11,7 @@ export default function Footer() {
             {app.name} Privacy Policy
           </Link>
         ))}
-        <a href="/terms.html" target="_blank" rel="noreferrer">Terms of Use</a>
+        <a href="https://www.wolsteno.com/invoiz-terms.html" target="_blank" rel="noreferrer">Terms of Use</a>
       </div>
       <p>
         © {new Date().getFullYear()} WOLSTENO Studio · Software Developer Portfolio by Fredy Camas

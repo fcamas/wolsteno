@@ -16,7 +16,7 @@ export const apps = [
     appStoreUrl: null,      // add later
     route: '/invoiz',
     privacyRoute: '/invoiz-privacy.html',
-    termsUrl: '/terms.html',
+    termsUrl: 'https://www.wolsteno.com/invoiz-terms.html',
     icon: invoizIcon,
     screenshots: [invoiz1, invoiz2, invoiz3],
 
