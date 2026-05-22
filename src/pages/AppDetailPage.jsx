@@ -99,12 +99,11 @@ export default function AppDetailPage() {
         </section>
 
         {/* legal links */}
-        <section className="app-privacy-link">
-          <Link to={app.privacyRoute}>Privacy Policy →</Link>
-          {app.termsUrl && (
-            <a href={app.termsUrl} target="_blank" rel="noreferrer">{app.name} Terms of Use →</a>
-          )}
-        </section>
+        {app.termsUrl && (
+          <section className="app-privacy-link">
+            <a href={app.termsUrl} target="_blank" rel="noreferrer">Terms of Use →</a>
+          </section>
+        )}
 
       </main>
       <Footer />
