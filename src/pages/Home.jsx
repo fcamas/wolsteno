@@ -110,11 +110,6 @@ export default function Home() {
       </main>
 
       <footer className="home-footer">
-        <div className="footer-privacies">
-          {apps.map(app => (
-            <Link key={app.id} to={app.privacyRoute}>{app.name} Privacy Policy</Link>
-          ))}
-        </div>
         <img src={sign} alt="Fredy signature" className="home-sign-img" />
         <p>© {new Date().getFullYear()} WOLSTENO Studio · Software Developer Portfolio by Fredy Camas</p>
       </footer>
