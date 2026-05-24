@@ -7,9 +7,9 @@ export const apps = [
   {
     id: 'invoiz',
     name: 'Invoiz',
-    tagline: 'Invoice & Billing Made Simple',
+    tagline: 'Scan. Review. Share.',
     description:
-      'Invoiz makes it effortless to create professional invoices, track your payments, and keep your business finances organised, all from your iPhone. Built for freelancers, contractors, and small business owners who want something powerful without the complexity.',
+      'Invoiz is a barcode-powered receipt app for small business owners and vendors. Instead of typing everything manually, you scan a product\'s barcode and it instantly adds it to the current sale.',
     category: 'Business',
     platforms: ['iOS'],
     accent: '#6366f1',
@@ -22,44 +22,24 @@ export const apps = [
 
     features: [
       {
-        icon: '⚡',
-        title: 'Quick Invoicing',
-        description: 'Create and send professional invoices in seconds with line items, taxes, and discounts.',
+        icon: '📷',
+        title: 'Create',
+        description: 'Your point-of-sale screen. Tap the scan card to open the camera and scan any product barcode — it finds the product instantly and adds it to the invoice. You can also search by name, add items manually, or browse your catalog. Tap "Complete Invoice" to get a confirmation screen with the total and a share button for the PDF receipt.',
       },
       {
-        icon: '📊',
-        title: 'Payment Tracking',
-        description: 'See paid, pending, overdue, and partial payments at a glance. Automatic overdue detection and dashboard alerts.',
+        icon: '📦',
+        title: 'Products',
+        description: 'Your catalog. Add products with a name, price, unit (each / kg / lb / etc.), barcode, and an optional photo. Every product you add here is instantly available to scan on the Create tab. Swipe left to delete.',
       },
       {
-        icon: '👤',
-        title: 'Client Management',
-        description: 'Full contact database with financial history, revenue goals, credit balances, and timestamped notes per client.',
+        icon: '🧾',
+        title: 'History',
+        description: 'Every completed sale saved automatically with date, time, item count, and total. Tap any receipt to see the full breakdown and reshare the PDF. Swipe left to delete.',
       },
       {
-        icon: '📄',
-        title: 'PDF Export',
-        description: 'Export invoices as polished PDFs or HTML email-ready output and share them directly from the app.',
-      },
-      {
-        icon: '💸',
-        title: 'Expense Tracking',
-        description: 'Log categorised expenses, mark billable or tax-deductible items, and track monthly budgets with progress alerts.',
-      },
-      {
-        icon: '🔁',
-        title: 'Recurring Billing',
-        description: 'Set up recurring invoices (weekly to annually), payment plans, and recurring expenses, all automated.',
-      },
-      {
-        icon: '📈',
-        title: 'Dashboard & Reports',
-        description: 'Revenue charts, expense breakdowns, tax summaries, and a forecast view. Everything to run your business.',
-      },
-      {
-        icon: '🔒',
-        title: 'Private & Secure',
-        description: 'All data stays on your device. Biometric app lock with Face ID or Touch ID keeps your finances private.',
+        icon: '⚙️',
+        title: 'Settings',
+        description: 'Set your business name, address, email, phone, logo, invoice prefix, tax rate, currency, and footer note. All of this prints on the PDF receipt.',
       },
     ],
 
