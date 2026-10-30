@@ -13,7 +13,7 @@ export const apps = [
     category: 'Business',
     platforms: ['iOS'],
     accent: '#6366f1',
-    appStoreUrl: null,      // add later
+    appStoreUrl: 'https://apps.apple.com/us/app/invoiz/id6771568475',
     route: '/invoiz',
     privacyRoute: '/invoiz-privacy.html',
     termsUrl: 'https://www.wolsteno.com/invoiz-terms.html',
